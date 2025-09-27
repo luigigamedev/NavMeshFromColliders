@@ -1,6 +1,5 @@
-# NavMesh From Colliders
 Mesh renderers are often detailed with specific artifacts.
-Since NavMesh baking is done based on the mesh renderers, it can generate a jerky and unprecise NavMesh.
+Since NavMesh baking is done based on the mesh renderers, it can generate a jerky and imprecise NavMesh.
 
 This small editor tool will prepare the scene for NavMesh baking by deactivating all the mesh renderers and generating simple ones based on the actual colliders, with the intention of improving the precision of the generated NavMesh.
 
