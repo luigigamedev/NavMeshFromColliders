@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SampleSceneScript : MonoBehaviour
+namespace NavMeshFromColliders
 {
-    public NavMeshAgent Agent;
-    public Transform Target;
-    
-    private void Start()
+    public class SampleSceneScript : MonoBehaviour
     {
-        Agent.SetDestination(Target.position);
+        public NavMeshAgent Agent;
+        public Transform Target;
+
+        private void Start()
+        {
+            Agent.SetDestination(Target.position);
+        }
     }
 }

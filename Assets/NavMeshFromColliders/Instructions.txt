@@ -1,0 +1,9 @@
+1. Open the editor window from the menu:
+	- Tools → NavMesh From Colliders
+2. Set up the Layer Mask to include the objects you want to use for NavMesh baking.
+3. Click Prepare Scene to:
+	- Hide existing mesh renderers.
+	- Generate temporary mesh renderers based on the scene’s colliders.
+4. (Optional) Make any additional adjustments before baking.
+5. Bake the NavMesh using Unity’s standard baking process.
+6. When finished, click Restore Scene to remove the temporary meshes and restore the scene to its original state.
