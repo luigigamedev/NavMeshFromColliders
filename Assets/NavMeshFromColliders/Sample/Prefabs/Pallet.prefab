@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f1ca7d3264c070b498587f22fd01fd73, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f7c07860700394e4b80c72cfb5d6683e, type: 2}
     - target: {fileID: 919132149155446097, guid: f1ca7d3264c070b498587f22fd01fd73, type: 3}
       propertyPath: m_Name
       value: Pallet
