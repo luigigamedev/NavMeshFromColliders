@@ -21,7 +21,7 @@ namespace NavMeshFromColliders
         private Material diffuseDefaultMaterial = null;
         private bool bakeMode = false;
 
-        [MenuItem("Window/Open NavMeshFromCollidersWindow")]
+        [MenuItem("Tools/NavMesh From Colliders")]
         public static void ShowWindow()
         {
             GetWindow<NavMeshFromCollidersWindow>();
